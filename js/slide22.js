@@ -1,13 +1,17 @@
 function isNumber(testString){
 
-    if(parseInt(testString) != NaN){
-        return "true";
+    if(isNaN(testString)){
+        return false;
     }
     else{
-        return "false";
+        return true
     }
 }
 
 function convertToNNumber(testString){
-    return parseInt(testString);
+    if(isNumber(testString)){
+        return parseInt(testString);
+    }
 }
+
+

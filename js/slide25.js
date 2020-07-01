@@ -66,4 +66,4 @@ function isLeap(y){
     }
 }
 
-month();
+month(); //CALLING THE FUNCTION
